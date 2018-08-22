@@ -1,0 +1,26 @@
+{
+  "name": "react-autorize",
+  "version": "0.0.2",
+  "description": "Cli version of create react app automation for private use",
+  "main": "lib/app.js",
+  "bin": {
+    "react-autorize": "bin/reactScript.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "commander",
+    "automation",
+    "nodejs",
+    "create-react-app"
+  ],
+  "author": "dorry457@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1"
+  }
+}
