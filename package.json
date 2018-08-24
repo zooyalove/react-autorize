@@ -1,6 +1,6 @@
 {
   "name": "react-autorize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cli version of create react app automation for private use",
   "main": "lib/app.js",
   "bin": {
@@ -10,6 +10,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zooyalove/react-autorize.git"
+  },
   "keywords": [
     "cli",
     "commander",
@@ -17,7 +21,10 @@
     "nodejs",
     "create-react-app"
   ],
-  "author": "dorry457@gmail.com",
+  "author": {
+    "name": "Zooyalove",
+    "email": "dorry457@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
